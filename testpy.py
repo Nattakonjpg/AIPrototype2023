@@ -1,6 +1,11 @@
 
-def main(): 
-    print("hey there") 
-    
-if __name__=="__main__": 
+def printhello(): 
+    print("hell word") 
+
+def multiplyby9(inputV):
+    print(9*inputV)
+
+if __name__=="__main__": #flow program
     print("we are in the main function")
+    multiplyby9(20)
+    printhello()
