@@ -31,5 +31,5 @@ if __name__=="__main__": #flow program
     input_V = parse_input()
     print(f'the input xx is {input_v.XX}')
     print("we are in the main function")
-    multiplyby9(input_V)
+    multiplyby9(20)
     printhello()
