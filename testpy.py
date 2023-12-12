@@ -23,8 +23,8 @@ def parse_input():
 def printhello(): 
     print("hell word") 
 
-def multiplyby9(input_V):
-    print(9*input_V)
+def multiplyby9(inputV):
+    print(9*inputV)
 
 if __name__=="__main__": #flow program
 
