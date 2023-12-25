@@ -4,7 +4,7 @@ if __name__ =="__main__":
     #Basic terminal command
     subprocess.run({"ls","-ltr"}) #run "ls -ltr" "spacebar = ,"
     subprocess.run(["rm","-r","/home/nattakonpu/testfolder1"]) #"remove folder testfolder1"
-    subprocess.run(["python","testpy.py","--num","5","--XX","10"])
-    subprocess.run(["python","testpy.py","--num","10","--XX","20"])
-    subprocess.run(["python","testpy.py","--num","15"])
+    subprocess.run(["python","testpy.py","--num","100","--XX","90"])
+    subprocess.run(["python","testpy.py","--num","10","--XX","90"])
+    subprocess.run(["python","testpy.py","--num","0"])
 
