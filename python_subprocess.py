@@ -8,7 +8,7 @@ if __name__ =="__main__":
     subprocess.run(["python","testpy.py","--num","100","--XX","90"])
     print("---------------------------------")
     print("second run num=10 XX=90")
-    subprocess.run(["python","testpy.py","--num","10","--XX","90"])
+    subprocess.run(["python","testpy.py","--num","10","--XX","-90"])
     print("---------------------------------")
     print("third run num=0")
     subprocess.run(["python","testpy.py","--num","0"])
