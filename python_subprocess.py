@@ -7,4 +7,5 @@ if __name__ =="__main__":
     subprocess.run(["python","testpy.py","--num","100","--XX","90"])
     subprocess.run(["python","testpy.py","--num","10","--XX","90"])
     subprocess.run(["python","testpy.py","--num","0"])
+    subprocess.run({"--------------------------------"})
 
