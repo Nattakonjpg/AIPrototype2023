@@ -14,3 +14,13 @@ if __name__ =="__main__":
     subprocess.run(["python","testpy.py","--num","0"])
     print("---------------------------------")
 
+
+    #ues output from other programk
+    process_output = subprocess.Popen(["python","testpy.py","--num","0"],
+                                        stdout=subprocess.PIPE,
+                                        stderr=subprocess.PIPE)
+    out, err = process_output,communicate()
+    print(out.decode("utf-8"))
+    print(len(out.decode("utf-8")))
+    
+    #HW write subprocess sum output ทั้งหมดของ command 3 อันข้างบน (ตัวเลขก่อน Hello word)
