@@ -19,7 +19,7 @@ if __name__ =="__main__":
     process_output = subprocess.Popen(["python", "testpy.py", "--num", "0"],
                                        stdout=subprocess.PIPE,
                                        stderr=subprocess.PIPE)
-    out, err = process_output,communicate()
+    out, err = process_output.communicate()  # fix the typo here, change ',' to '.'
     print(out.decode("utf-8"))
     print(len(out.decode("utf-8")))
     
