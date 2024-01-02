@@ -24,5 +24,5 @@ if __name__ =="__main__":
     print(len(out.decode("utf-8")))
     
     #HW write subprocess sum output ทั้งหมดของ command 3 อันข้างบน (ตัวเลขก่อน Hello word)
-    
+
 
