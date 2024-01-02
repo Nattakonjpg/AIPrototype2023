@@ -21,6 +21,6 @@ if __name__ =="__main__":
                                    stderr=subprocess.PIPE)
     out, err = process_output.communicate()  # Fix the typo here
     print(out.decode("utf-8"))
-    print(len(out.decode("utf-8")))
+    print(sum(out.decode("utf-8")))
 
     #HW write subprocess sum output ทั้งหมดของ command 3 อันข้างบน (ตัวเลขก่อน Hello word)
