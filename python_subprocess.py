@@ -1,32 +1,26 @@
-import subprocess  # for terminal command
+import subprocess #for terminal command
 
-def run_and_sum(command):
-    result = subprocess.run(command, stdout=subprocess.PIPE, text=True)
-    print(result.stdout)
-    return int(result.stdout.strip())
-
-if __name__ == "__main__":
-    # Basic terminal commands
-    subprocess.run(["ls", "-ltr"])  # run "ls -ltr"
-    subprocess.run(["rm", "-r", "/home/nattakonpu/testfolder1"])  # remove folder testfolder1
-
-    # First run
+if __name__ =="__main__":
+    #Basic terminal command
+    subprocess.run({"ls","-ltr"}) #run "ls -ltr" "spacebar = ,"
+    subprocess.run(["rm","-r","/home/nattakonpu/testfolder1"]) #"remove folder testfolder1"
     print("first run num=100 XX=90")
-    result_first_run = run_and_sum(["python", "testpy.py", "--num", "100", "--XX", "90"])
+    subprocess.run(["python","testpy.py","--num","100","--XX","90"])
     print("---------------------------------")
-
-    # Second run
     print("second run num=10 XX=90")
-    result_second_run = run_and_sum(["python", "testpy.py", "--num", "10", "--XX", "-90"])
+    subprocess.run(["python","testpy.py","--num","10","--XX","-90"])
     print("---------------------------------")
-
-    # Third run
     print("third run num=0")
-    result_third_run = run_and_sum(["python", "testpy.py", "--num", "0"])
+    subprocess.run(["python","testpy.py","--num","0"])
     print("---------------------------------")
 
-    # Sum the results
-    total_result = result_first_run + result_second_run + result_third_run
 
-    # Print the total result
-    print(f'Total Result: {total_result}')
+    # Use output from another program
+    process_output = subprocess.Popen(["python", "testpy.py", "--num", "0"],
+                                   stdout=subprocess.PIPE,
+                                   stderr=subprocess.PIPE)
+    out, err = process_output.communicate()  # Fix the typo here
+    print(out.decode("utf-8"))
+    print(len(out.decode("utf-8")))
+
+    #HW write subprocess sum output ทั้งหมดของ command 3 อันข้างบน (ตัวเลขก่อน Hello word)
