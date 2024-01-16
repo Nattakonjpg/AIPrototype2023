@@ -1,4 +1,3 @@
-from crypt import methods
 from flask import Flask, request, render_template, make_response
 
 import json
@@ -13,16 +12,15 @@ def helloword():
 def hellobank():
     return "Hello, Bank!"
 
-@app.route("/home", methods=['POST','GET'])
+@app.route("/home", methods={'POST','GET'}) #add POST send message inbox and GET to get message from url
 def homefn():
     print('we are in home')
-
+    #getting input with name = fname in HTML form
     namein = request.form.get('fname')
     lastnamein = request.form.get('lname')
     print(namein, file=sys.stdout)
-    print(lastnamein,file=sys.stdout)
-    return render_template("home.html",name=namein)
-
+    print(lastnamein, file=sys.stdout) #addinput from web into our html
+    return render_template("home.html", name=namein)
 
 
 if __name__ =="__main__":
