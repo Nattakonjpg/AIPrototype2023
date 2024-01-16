@@ -14,13 +14,14 @@ def hellobank():
 
 @app.route("/home", methods={'POST','GET'}) #add POST send message inbox and GET to get message from url
 def homefn():
-    print('we are in home')
-    #getting input with name = fname in HTML form
-    namein = request.form.get('fname')
-    lastnamein = request.form.get('lname')
-    print(namein, file=sys.stdout)
-    print(lastnamein, file=sys.stdout) #addinput from web into our html
-    return render_template("home.html", name=namein)
+    if request.methods == "GET":
+        print('we are in home', file=sys.stdout)
+        #getting input with name = fname in HTML form
+        namein = request.form.get('fname')
+        lastnamein = request.form.get('lname')
+        print(namein, file=sys.stdout)
+        print(lastnamein, file=sys.stdout) #addinput from web into our html
+        return render_template("home.html", name=namein)
 
 
 if __name__ =="__main__":
