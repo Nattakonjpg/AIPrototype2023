@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template, make_response
 
 import json
-
+import sys
 app = Flask(__name__)
 
 @app.route("/")
@@ -19,7 +19,7 @@ def homefn():
     namein = request.form.get('fname')
     lastnamein = request.form.get('lname')
     print(namein)
-    print(lastnamein)
+    print(lastnamein,file=sys.stdout)
     return render_template("home.html",name='namein')
 
 
