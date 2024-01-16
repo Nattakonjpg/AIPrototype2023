@@ -18,7 +18,7 @@ def homefn():
 
     namein = request.form.get('fname')
     lastnamein = request.form.get('lname')
-    print(namein)
+    print(namein, file=sys.stdout)
     print(lastnamein,file=sys.stdout)
     return render_template("home.html",name='namein')
 
