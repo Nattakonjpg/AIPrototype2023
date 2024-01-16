@@ -12,15 +12,15 @@ def helloword():
 def hellobank():
     return "Hello, Bank!"
 
-@app.route("/home", mthods={'POST','GET'})
+@app.route("/home", methods=['POST','GET'])
 def homefn():
     print('we are in home')
-    #getting input with name = fname in HTML form
+
     namein = request.form.get('fname')
-    agein = request.form.get('lname')
+    lastnamein = request.form.get('lname')
     print(namein)
-    print(agein)
-    return render_template("home.html", name=namein)
+    print(lastnamein)
+    return render_template("home.html",name='namein')
 
 
 
