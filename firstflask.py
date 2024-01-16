@@ -15,7 +15,7 @@ def hellobank():
 
 @app.route("/home", methods=['POST','GET'])
 def homefn():
-    print('we are in home',file=sys.stdout)
+    print('we are in home')
 
     namein = request.form.get('fname')
     lastnamein = request.form.get('lname')
