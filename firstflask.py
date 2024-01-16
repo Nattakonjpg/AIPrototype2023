@@ -9,9 +9,10 @@ app = Flask(__name__)
 def web_service_API():
 
     payload = request.data.decode("utf-8")
-    immessage = json.loads(payload)
+    inmessage = json.loads(payload)
 
-    print(immessage)
+    print(inmessage)
+    
     json_data = json.dumps({'y': 'received!'})
     return json_data
 
