@@ -262,7 +262,7 @@ get : ส่ง
 
 ## Flask Structure
 
-![Flask](Image/stru.png)
+![Flask](Image/Flask stru.pngg)
 
 - **fw**
     - → อันนี้คือชื่อของ Virtual Environment โดยในโฟลเดอร์นี้จะเอาไว้ใช้เก็บไลบรารี่ต่าง ๆ ที่เราได้ทำการติดตั้งผ่าน pip นั่นเอง
