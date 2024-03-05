@@ -114,6 +114,7 @@ git add # upfile to github
 git commit -m*add myname* # บอกว่าแก้อะไร
 ```
 ## AI Prototype Class 4
+### [Subprocess](https://github.com/Nattakonjpg/AIPrototype2023/blob/afbad45fed0b3dd3504096293b5ff41c2b64b6a0/python_subprocess.py)
 Step this week
 
 1. in folder ubuntu → folder AIPrototype66
