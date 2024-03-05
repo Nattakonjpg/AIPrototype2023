@@ -4,7 +4,7 @@
 - [githubwebpage](https://github.com/Nattakonjpg/Valolyze)
 - [webpage](http://4.216.171.68:5001/home_web)
 - [webapp](http://4.216.171.68:5001/webapp)
-## Al Prototype Class 1
+## [Al Prototype Class 1](https://github.com/Nattakonjpg/AIPrototype2023/blob/b805ffe680a0a8895db9757d2367942baffa189e/Al%20Prototype%20Class%201.pdf)
 - [Facebook](https://www.facebook.com/groups/356929536868115)
 
 ### เรียน 8 บท
@@ -16,7 +16,7 @@ Command line → บท 1 - บท 4
 2. Google Drive : Paste URL github
 3. ubuntu 
 
-## AI Prototype Class 2
+## [AI Prototype Class 2](https://github.com/Nattakonjpg/AIPrototype2023/blob/b805ffe680a0a8895db9757d2367942baffa189e/AI%20Prototype%20Class%202.pdf)
 
 ### Create Virtual Machine
 
@@ -56,7 +56,7 @@ Command line → บท 1 - บท 4
     
    3. x = 1 execute ( run )
     
-## AI Prototype Class 3
+## [AI Prototype Class 3](https://github.com/Nattakonjpg/AIPrototype2023/blob/b805ffe680a0a8895db9757d2367942baffa189e/AI%20Prototype%20Class%203.pdf)
 
 ```python
 sudo = install for everyone 
@@ -113,7 +113,7 @@ git status # ดูว่าไฟล์ไหนแก้ไขไปบ้า�
 git add # upfile to github
 git commit -m*add myname* # บอกว่าแก้อะไร
 ```
-## AI Prototype Class 4
+## [AI Prototype Class 4](https://github.com/Nattakonjpg/AIPrototype2023/blob/b805ffe680a0a8895db9757d2367942baffa189e/AI%20Prototype%20Class%204.pdf)
 ### [Subprocess](https://github.com/Nattakonjpg/AIPrototype2023/blob/afbad45fed0b3dd3504096293b5ff41c2b64b6a0/python_subprocess.py)
 Step this week
 
@@ -193,9 +193,9 @@ if __name__=="__main__": #flow program
     - print("we are in the main function")
     - function การคูณ 9*ตัวแปร x 
     - print(”hello”) function
-## AI Prototype Class 5
+## [AI Prototype Class 5](https://github.com/Nattakonjpg/AIPrototype2023/blob/b805ffe680a0a8895db9757d2367942baffa189e/AI_Prototype_Class_5.pdf)
 - นำเสนอการบ้าน Subprocess 
-## AI Prototype Class 6
+## [AI Prototype Class 6](https://github.com/Nattakonjpg/AIPrototype2023/blob/b805ffe680a0a8895db9757d2367942baffa189e/AI%20Prototype%20Class%206.pdf)
 - Goal this class = writing web from python
 - **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**
     1. Web page
@@ -211,7 +211,7 @@ if __name__=="__main__": #flow program
     - **Web Service = Server Side Script only**
         - for only User use
 
-## AI Prototype Class 7
+## [AI Prototype Class 7](https://github.com/Nattakonjpg/AIPrototype2023/blob/b805ffe680a0a8895db9757d2367942baffa189e/AI%20Prototype%20Class%207.pdf)
 [firstflask](https://github.com/Nattakonjpg/AIPrototype2023/blob/afbad45fed0b3dd3504096293b5ff41c2b64b6a0/firstflask.py)
 ```python
 from flask import Flask, request, render_template, make_response
@@ -238,7 +238,7 @@ if __name__== "__main__"
     202.28.118.110 = ip เครื่อง
     **port:50001 :** port 5001 ให้สามารถเข้าได้ setting ใน vm
     
-## AI Prototype Class 8
+## [AI Prototype Class 8](https://github.com/Nattakonjpg/AIPrototype2023/blob/b805ffe680a0a8895db9757d2367942baffa189e/AI%20Prototype%20Class%208.pdf)
 **conda activate mypy38**
 
 post : ส่งทุกอย่างใน url
@@ -276,7 +276,7 @@ get : ส่ง
 - **static**
     - → เป็นโฟลเดอร์ที่จะเอาไว้ใช้เก็บไฟล์ static(ไฟล์ที่ไม่มีการเปลี่ยนแปลงของคอนเทนต์) ต่าง ๆ เช่น JavaScript(js), CSS และไฟล์รูปภาพนามสกุลต่าง ๆ เช่น jpg, png เป็นต้น ซึ่งเราจะต้องเก็บไฟล์เหล่านี้ ไว้ที่โฟลเดอร์ static
 
-## AI Prototype Class 9+10
+## [AI Prototype Class 9+10]([AI Prototype Class 9+10.pdf](https://github.com/Nattakonjpg/AIPrototype2023/blob/b805ffe680a0a8895db9757d2367942baffa189e/AI%20Prototype%20Class%209%2B10.pdf))
 ### Deep Learning
 
 - input = image ( This class)
@@ -347,7 +347,8 @@ activation function = กำหนดค่าที่ไปคูณให้�
 
 ![8](Image/8.png)
 → for Many Class
-## AI Prototype Class 11 code deep learning
+
+## [AI Prototype Class 11 code deep learning](https://github.com/Nattakonjpg/AIPrototype2023/blob/b805ffe680a0a8895db9757d2367942baffa189e/AI%20Prototype%20Class%2011%20code%20deep%20learning.pdf)
 [Keras: API ระดับสูงสำหรับ TensorFlow  |  TensorFlow Core](https://www.tensorflow.org/guide/keras?hl=th)
 
 [Google Colaboratory](https://colab.research.google.com/drive/1sQ7SugSz_5I0j0JrhzXmqufq3NwAQWv7)
