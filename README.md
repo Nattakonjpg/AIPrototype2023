@@ -119,7 +119,7 @@ Step this week
 1. in folder ubuntu → folder AIPrototype66
 2. code [testpy.py](http://testpy.py) # สร้าง folder 
 3. Ctrl + S #ได้ไฟล์ py ที่เราเขียน
-
+[subprocess](
 ```python
 #Step after create file.py
 git pull # ก่อนตลอดก่อนเริ่มแก้โค๊ด เรียกให้อัพเดท code
