@@ -2,6 +2,8 @@
  Nattakon Puangkaew 
  ID : 633021015-9 : SIDS
 - [githubwebpage](https://github.com/Nattakonjpg/Valolyze)
+- [webpage](http://4.216.171.68:5001/home_web)
+- [webapp](http://4.216.171.68:5001/webapp)
 ## Al Prototype Class 1
 - [Facebook](https://www.facebook.com/groups/356929536868115)
 
