@@ -210,9 +210,9 @@ if __name__=="__main__": #flow program
         - Using Package Flask → Python
     - **Web Service = Server Side Script only**
         - for only User use
-### [Github](https://github.com/Nattakonjpg/Valolyze/blob/main/index.html)
 
 ## AI Prototype Class 7
+[firstflask](https://github.com/Nattakonjpg/AIPrototype2023/blob/afbad45fed0b3dd3504096293b5ff41c2b64b6a0/firstflask.py)
 ```python
 from flask import Flask, request, render_template, make_response
 
